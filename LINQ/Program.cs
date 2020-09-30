@@ -12,7 +12,7 @@ namespace LINQ
             // Write a program in C# Sharp to shows how the three parts of a query operation execute.
             Console.WriteLine(" === Ex1 modulo 2 === \n");
 
-            int[] n1 = new int[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[] n1 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             IEnumerable<int> r1 = 
                 from n in n1 
